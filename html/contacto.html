@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos </title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <main id="contenedores">
+        <header class="headers">
+            <div class="logoUtn">
+                <h1>UTN</h1>
+            </div>
+        </header>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../html/notas.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="../html/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="principal">
+
+            <!-- Formularios -->
+            <h2>Contacto</h2>
+            <form action="mailto:mail@mail.com" method="POST" id="formContacto">
+
+                <div>
+                    <label>
+                       <span>Nombre</span>
+                       <input type="text" name="nombre" placeholder="escriba su nombre.." required> 
+                    </label>                
+                </div>
+
+                <!-- Con estar dentro del mismo label no hace falta el FOR -->
+                <div>
+                    <label for="campoEmail">
+                       <span>Email</span>
+                       <input type="email" name="email" id="campoEmail" placeholder="escriba su email.." required>
+                    </label>
+                </div>  
+                
+                <div>
+                    <span>Localidad</span>
+                    <select name="localidad" id="" title="Seleccione una localidad">
+                        <option value="0200">Avellaneda</option>
+                        <option value="0100">Lanus</option>
+                        <option value="0300">Lomas de Zamora</option>
+                        <option value="0400">Ezeiza</option>
+                        <option selected>Seleccione</option>
+                    </select>
+                </div>
+
+                <div>
+                    <span>Género</span>
+                    <br>
+                    <input type="radio" name="genero" value="femenino">Femnino
+                    <br>
+                    <input type="radio" name="genero" value="masculino">Masculino
+                    <br>
+                    <input type="radio" name="genero" value="otro">Otro
+                </div>
+
+                <div>
+                    <span>Comentario</span>
+                    <br>
+                    <textarea name="comentario" id=""></textarea>
+                </div>
+
+                <div>
+                    <label>
+                    <input type="checkbox" name="suscripción" id="" value="true" checked>
+                    <span>Acepto términos y condiciones</span>
+                    </label>
+                </div>
+                
+
+                <!-- <input type="submit" value="Enviar"> -->
+                <button type="submit">Enviar</button>
+                <!-- <input type="button" value="button"> -->
+                <!-- <button>Botón</button> -->
+            
+            </form>
+
+
+
+
+            
+            
+        </section>
+
+        <!-- Banner -->
+        <aside class="banner">
+            insertar banner
+        </aside>
+
+        <!-- Footer -->
+        <footer class="piecito">
+            <p>
+                &copy; 2021 - Derechos reservados - Desarrollado por <a href="mailto:mail@mail.com">Lucho</a>
+            </p>
+
+        </footer>
+        
+
+
+        
+    </main>
+    
+</body>
+</html>

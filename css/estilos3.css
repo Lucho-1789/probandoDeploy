@@ -1,0 +1,32 @@
+/* Header */
+.cabeza1{
+    /* height: 4rem; */
+    background: #39BBED;
+}
+.cabeza2{
+    /* height: 2rem;  */
+    background: #2680A2;   
+}
+
+
+/* Main */
+.slider{
+    /* height: 30vh; */
+    background: linear-gradient(#D0CE5D, #F68C62 );
+}
+.picture{
+    width: 50%;
+}
+/* Ficha */
+/* .ficha{
+    height: 100vh;
+} */
+
+
+
+
+
+/* Footer */
+/* .pie{
+    height: 10vh;
+} */

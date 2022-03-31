@@ -1,0 +1,399 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: rgb(233, 232, 232); */
+    /* width: 100%;     */
+    /* background-image: url("https://caffeyoga.com/wp-content/uploads/2016/01/beach-yoga1.jpg");
+    background-repeat: repeat-y;
+    background-position-x: center; */
+    /* background-position-y:center; */ 
+    animation-name: anim-fondo; 
+    background-image: url("../img/back.jpg");
+    /* background-size: cover;  
+    background-position: left; */
+    /* animation-name: anim-der; */
+    /* animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+}
+
+/* Contenedor */
+#contenido{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    /* border: 2px grey solid; */
+    height: 1000px;
+    
+}
+
+/* Float prueba */
+.textoPrincipal {
+    /* float: left;
+    width: 45%; */
+}
+#fotoYoga .caja3 {
+    float: right;
+}
+
+/* Imágenes */
+.logo{
+    width: 5rem;
+}
+#yoga {
+    width: 45%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    border-radius: 10px;    
+}
+
+
+/* Footer */
+#footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    clear: both;
+}
+
+.caja1, .caja2, .caja3{
+    border: 1px solid gray;
+    background-color: aquamarine;
+    width: 20%;
+
+}
+
+/* notas.html */
+
+#contenedores{
+    width: 80%;
+    max-width: 1200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Header */
+.logoUtn { 
+    height: 5rem;
+    /* background-color: rgb(46, 129, 197); */
+    color: white;    
+    margin-bottom: 0.5rem;
+    padding: 2%;
+}
+
+ /* .navbar{
+    background: rgb(4, 4, 70);
+    color: white;
+    text-align: right;
+    padding: 2%;    
+    height: 5rem;
+} */
+
+/* Menú principal */
+/* .navbar ul{
+    list-style-type: none;   
+
+    }
+    .navbar ul li{
+        /* float: right; */
+        /* display: inline-block; */
+        
+
+        /* }
+        .navbar ul li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 20px;
+            display: block;
+            }  
+            .navbar ul li a:hover{
+                /* text-decoration: underline; */
+                /* background: rgb(36, 83, 122); */
+
+            /* }                  */
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+/* Flex-box */
+
+.phater{
+    width: 75%;
+    /* height: 1000px; */
+    background-color: rgb(29, 47, 105);
+    padding: 10px;    
+    display: flex;
+    /* Define eje principal: row / column */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.item{
+    background: rgb(199, 199, 199);
+    width: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;   
+    
+}
+
+
+/* Navbar con flexbox */
+
+.inicio{    
+    background: rgb(46, 129, 197);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* align-content: center; */
+}
+.lista{
+    list-style-type: none;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: stretch;
+    align-content: center; */
+    
+}
+
+.hijitos{
+    background: rgb(231, 57, 13);
+    width: 50%;
+    /* height: 3rem; */
+    /* padding: 1rem; */
+    font-family: roboto;
+    font-size: 1.2rem;
+    /* align-items: baseline; */
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Notas portada */
+/* .principal{
+    width: 80%;
+    background-color: rgb(80, 80, 80);
+    padding: 2%; */
+    /* border: 2px solid; */
+    /* box-sizing: border-box;
+    float: left;
+} */
+
+.highlight1{
+    background: white;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.simple{
+    background: white;
+    padding: 1rem;
+    width: 49%;
+    float: left;
+    margin: 2px;
+    
+}
+
+.nota{
+    width: 100%;
+    padding: 1rem;
+}
+
+.breadcrumb{
+    background: rgb(37, 134, 179);
+    width: 80%;
+    padding: 2%;
+}
+
+.banner{
+    width: 20%;
+    height: 300px;
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 1%;
+    float: right;
+
+}
+
+
+.piecito {
+    clear: both;
+    background: cadetblue;
+    padding: 4%;
+    text-align: center;
+    
+}
+
+/* Formulario de contacto */
+.principal h2{
+    margin: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formContacto{
+    background: rgba(255, 255, 255, 0.356);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+#formContacto input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+#formContacto input[type="radio"]{
+    width: auto;
+    margin-right: 1rem;
+}
+#formContacto input[type="checkbox"]{
+    width: auto;
+    margin-right: 1rem;
+}
+#formContacto select{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+#formContacto textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+#formContacto button{
+    width: 100%;
+    margin-top: 2rem;
+    padding: .75rem;
+    background: rgb(13, 59, 158);
+    color: white;
+    border: none;
+}
+#formContacto button[type="submit"]:hover{
+    background: rgb(34, 92, 179);
+    cursor: pointer;
+}
+
+/* Position */
+#header{
+    position: sticky;
+    top: 0;
+}
+
+
+/* Animaciones */
+@keyframes anim-opac {
+    /* comienzo */
+    0%{
+        opacity: 0,2;
+        background: tomato;
+    }
+
+    100%{
+        opacity: 1;
+        background: white;
+    }
+    
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    animation-name: anim-opac;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.caja2{
+    width: 100px;
+    height: 100px;
+    background: green;
+    /* animation-name: anim-der; */
+    animation-duration: 4s;
+    /* animation-direction: alternate-reverse;
+    animation-fill-mode: both; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes anim-der {
+    /* comienzo */
+    0%{
+        border-radius: 0px;
+        transform: translateX(0px);        
+    }
+    100%{
+        border-radius: 50px;
+        transform: translateX(300px);  
+        background: red;      
+    }
+
+    /* 100%{
+        border-radius: 0px;
+        margin-left: 0px;
+    } */    
+}
+
+@keyframes anim-fondo {
+    /* comienzo */
+    0%{
+        
+        background-position: left;        
+    }
+    100%{
+        
+        background-position: right;  
+              
+    }
+
+    /* 100%{
+        border-radius: 0px;
+        margin-left: 0px;
+    } */    
+}
+ 
